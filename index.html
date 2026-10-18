@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AURA — пространство для новых идей, вдохновения и творчества.">
+  <title>AURA — пространство идей</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Главная навигация">
+      <a class="logo" href="#home" aria-label="AURA — на главную"><span class="logo-mark">✳</span> AURA</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">О проекте</a></li>
+        <li><a href="#features">Возможности</a></li>
+        <li><a href="#stories">Вдохновение</a></li>
+        <li><a class="nav-cta" href="#contact">Связаться <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> МЕСТО ДЛЯ ТВОИХ ИДЕЙ</p>
+        <h1>Думай смелее.<br><span>Создавай своё.</span></h1>
+        <p class="hero-text">AURA — цифровое пространство для тех, кто ищет вдохновение, пробует новое и превращает идеи в реальные проекты.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">Исследовать <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#features">Что внутри <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note"><div class="avatar-stack"><span>А</span><span>М</span><span>К</span></div><p><strong>Начни с малого</strong><br>Большие идеи растут из любопытства.</p></div>
+      </div>
+      <div class="hero-art" aria-label="Абстрактная композиция из цветных форм" role="img">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-sun"></div><div class="art-pill"></div><div class="art-sphere"></div>
+        <div class="art-label label-top">IDEAS<br>IN MOTION</div>
+        <div class="art-label label-bottom">VOL. 01 <span>✳</span> 2026</div>
+        <div class="art-spark spark-one">✳</div><div class="art-spark spark-two">✦</div>
+      </div>
+      <div class="scroll-cue"><span></span> ЛИСТАЙ НИЖЕ</div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="container intro-grid">
+        <p class="eyebrow">01 / НАША ФИЛОСОФИЯ</p>
+        <div><h2>Любопытство — это<br>твой <span class="highlight">суперскилл.</span></h2>
+          <p class="intro-copy">Не обязательно знать все ответы. Достаточно задать правильный вопрос, посмотреть на привычное под другим углом и дать себе возможность экспериментировать.</p>
+          <a class="underlined-link" href="#contact">Давай знакомиться <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section-pad" id="features">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">02 / ЧТО ТЕБЯ ЖДЁТ</p><h2>Пространство для<br><span class="muted">нового взгляда.</span></h2></div><p class="section-description">Три направления, которые помогут взглянуть на свои идеи по-новому.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card card-lilac"><div class="card-top"><span class="card-number">01</span><span class="card-icon">✳</span></div><div><h3>Исследуй</h3><p>Замечай детали, задавай вопросы и находи неожиданные связи между вещами.</p></div><a href="#stories" aria-label="Подробнее об исследовании">↗</a></article>
+          <article class="feature-card card-peach"><div class="card-top"><span class="card-number">02</span><span class="card-icon">◒</span></div><div><h3>Экспериментируй</h3><p>Пробуй разные подходы. Ошибки — не конец, а часть интересного процесса.</p></div><a href="#stories" aria-label="Подробнее об экспериментах">↗</a></article>
+          <article class="feature-card card-mint"><div class="card-top"><span class="card-number">03</span><span class="card-icon">↗</span></div><div><h3>Создавай</h3><p>Собирай мысли в проекты, делись результатами и вдохновляй других.</p></div><a href="#contact" aria-label="Начать создавать">↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section section-pad" id="stories">
+      <div class="container quote-wrap"><span class="quote-mark">“</span><blockquote>Творчество начинается там,<br>где заканчивается <em>«так принято».</em></blockquote><div class="quote-footer"><span>ЗАМЕТКА ДЛЯ СЕБЯ</span><span>СОХРАНИ ЭТУ МЫСЛЬ ↗</span></div></div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">03 / ОСТАЁМСЯ НА СВЯЗИ</p><h2>Есть идея?<br><span class="muted">Расскажи нам.</span></h2><p class="contact-copy">Оставь сообщение — пусть это будет началом чего-то интересного.</p><div class="contact-decoration">✳</div></div>
+        <form class="contact-form" id="contactForm">
+          <label for="name">Как тебя зовут?</label><input id="name" name="name" type="text" placeholder="Твоё имя" required minlength="2">
+          <label for="email">Твоя электронная почта</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+          <label for="message">О чём хочешь рассказать?</label><textarea id="message" name="message" rows="4" placeholder="У меня есть идея..." required minlength="10"></textarea>
+          <label class="check-label"><input type="checkbox" id="consent" required><span>Я согласен(на) на обработку данных для ответа на сообщение.</span></label>
+          <button class="button button-primary submit-button" type="submit">Отправить сообщение <span>↗</span></button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="logo" href="#home"><span class="logo-mark">✳</span> AURA</a><p>Создано с любопытством © 2026</p><a href="#home" class="back-top">НАВЕРХ ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
